@@ -20,14 +20,14 @@ h1 {
     left: 0;
     background-color: rgb(37, 37, 37);
     overflow-x: hidden;
-    padding-top: 10px;
+    padding-top: 200px;
 }
 
 .sidenav a {
     margin-top: 0;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
     color: rgb(226, 226, 226);
     display: block;
     text-align: center;
@@ -45,4 +45,22 @@ h1 {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.grid-container {
+    display: grid;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+figure {
+    text-align: center;
 }
